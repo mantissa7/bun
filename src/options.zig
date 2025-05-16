@@ -1210,7 +1210,7 @@ pub const JSX = struct {
         .{ "react", RuntimeDevelopmentPair{ .runtime = .classic, .development = null } },
         .{ "react-jsx", RuntimeDevelopmentPair{ .runtime = .automatic, .development = true } },
         .{ "react-jsxdev", RuntimeDevelopmentPair{ .runtime = .automatic, .development = true } },
-        .{ "solid", RuntimeDevelopmentPair{ .runtime = .solid, .development = null } },
+        .{ "solid-js", RuntimeDevelopmentPair{ .runtime = .solid, .development = null } },
     });
 
     pub const Pragma = struct {
